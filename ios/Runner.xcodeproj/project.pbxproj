@@ -14,6 +14,7 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A2405093BC5832B84B29597F /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56F64A54E46F17904438945 /* Pods_Runner.framework */; };
+		DC52E59C2CD06488007E42ED /* MyTimerWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DC52E59B2CD06488007E42ED /* MyTimerWidget.intentdefinition */; };
 		DCFB42C22CCF87A900964697 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB42C12CCF87A900964697 /* WidgetKit.framework */; };
 		DCFB42C42CCF87A900964697 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB42C32CCF87A900964697 /* SwiftUI.framework */; };
 		DCFB42D12CCF87AA00964697 /* MyTimerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCFB42C02CCF87A900964697 /* MyTimerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -58,7 +59,6 @@
 /* Begin PBXFileReference section */
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		659CA28B2215B2656EC1CF9C /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -76,6 +76,7 @@
 		A94B40A8D753F0AB9E23B9BB /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5BE571D95286B9C283D4387 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		C5E016A12C569D35CD0A9549 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		DC52E59B2CD06488007E42ED /* MyTimerWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MyTimerWidget.intentdefinition; sourceTree = "<group>"; };
 		DCFB42C02CCF87A900964697 /* MyTimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyTimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFB42C12CCF87A900964697 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DCFB42C32CCF87A900964697 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -109,14 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		331C8082294A63A400263BE5 /* RunnerTests */ = {
-			isa = PBXGroup;
-			children = (
-				331C807B294A618700263BE5 /* RunnerTests.swift */,
-			);
-			path = RunnerTests;
-			sourceTree = "<group>";
-		};
 		3E51DA7053C8CE77D6F2E153 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +140,6 @@
 				97C146F01CF9000F007C117D /* Runner */,
 				DCFB42DD2CCF881800964697 /* MyTimerWidget */,
 				97C146EF1CF9000F007C117D /* Products */,
-				331C8082294A63A400263BE5 /* RunnerTests */,
 				C731C6A602346BCDB20E474E /* Pods */,
 				3E51DA7053C8CE77D6F2E153 /* Frameworks */,
 			);
@@ -197,6 +189,7 @@
 				DCFB42DA2CCF881800964697 /* Assets.xcassets */,
 				DCFB42DB2CCF881800964697 /* Info.plist */,
 				DCFB42DC2CCF881800964697 /* MyTimerWidget.swift */,
+				DC52E59B2CD06488007E42ED /* MyTimerWidget.intentdefinition */,
 			);
 			path = MyTimerWidget;
 			sourceTree = "<group>";
@@ -395,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC52E59C2CD06488007E42ED /* MyTimerWidget.intentdefinition in Sources */,
 				DCFB42E02CCF881800964697 /* MyTimerWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,8 +12,8 @@ class TimerModel {
   Map<String, dynamic> toMap() {
     return {
       'timerName': timerName,
-      'matchStartDate': matchStartDate?.microsecondsSinceEpoch,
-      'matchEndDate': matchEndDate?.microsecondsSinceEpoch,
+      'matchStartDate': matchStartDate?.millisecondsSinceEpoch,
+      'matchEndDate': matchEndDate?.millisecondsSinceEpoch,
     };
   }
 
